@@ -247,7 +247,12 @@ export default function GuideView({ guide, related }) {
                 <p className={styles.inlineCtaText}>
                   Ready to set up your first DM automation?
                 </p>
-                <a href="#" className={styles.inlineCtaButton}>
+                <a
+                  href="https://creatordesks.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.inlineCtaButton}
+                >
                   Start for Free →
                 </a>
               </div>

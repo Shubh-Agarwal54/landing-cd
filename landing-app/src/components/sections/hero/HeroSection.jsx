@@ -105,7 +105,12 @@ export default function HeroSection() {
           Automation That Actually Grows Your Audience &amp; Revenue.
         </h1>
 
-        <a href="#" className={styles.ctaButton}>
+        <a
+          href="https://creatordesks.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.ctaButton}
+        >
           <Image src="https://ik.imagekit.io/Creatordesks/CD%20Landing%20Page/images/Hero%20section/stars.png?updatedAt=1781235141589" className={styles.starIcon} width={25} height={25} alt="stars" />
           TRY FOR FREE
         </a>

@@ -98,7 +98,12 @@ export default function SolutionPage() {
             views. Start building engagement, conversations, leads, and revenue
             with CreatorDesk.
           </p>
-          <a href="#" className={styles.heroCta}> 
+          <a
+            href="https://creatordesks.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.heroCta}
+          >
              <Image src="https://ik.imagekit.io/Creatordesks/CD%20Landing%20Page/images/Hero%20section/stars.png?updatedAt=1781235141589" className={styles.starIcon} width={25} height={25} alt="stars" /> TRY FOR FREE</a>
         </div>
       </div>

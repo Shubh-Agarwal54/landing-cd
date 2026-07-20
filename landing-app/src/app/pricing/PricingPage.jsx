@@ -233,7 +233,12 @@ export default function PricingPage() {
           <p className={styles.heroSubtitle}>
             We believe in empowering creators. That&apos;s why Creatordesks is&nbsp;100% free till the end of 2026.
           </p>
-          <a href="#" className={styles.heroCta}>
+          <a
+            href="https://creatordesks.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.heroCta}
+          >
             <Image src="https://ik.imagekit.io/Creatordesks/CD%20Landing%20Page/images/Hero%20section/stars.png?updatedAt=1781235141589" className={styles.starIcon} width={25} height={25} alt="stars" />
             TRY FOR FREE
           </a>
@@ -258,7 +263,14 @@ export default function PricingPage() {
         </p>
         <p className={styles.freePrice}>Rs.0</p>
         <p className={styles.freeCaption}>Free Till 2026</p>
-        <a href="#" className={styles.freeBtn}>Get Started for Free</a>
+        <a
+          href="https://creatordesks.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.freeBtn}
+        >
+          Get Started for Free
+        </a>
         <p className={styles.freeNote}>
           <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
             <circle cx="9" cy="9" r="9" fill="#22c55e"/>

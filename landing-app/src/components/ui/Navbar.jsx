@@ -43,7 +43,12 @@ export default function Navbar() {
         </ul>
       </nav>
 
-      <a href="#" className={`${styles.signupButton} ${styles.desktopCta}`}>
+      <a
+        href="https://creatordesks.vercel.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`${styles.signupButton} ${styles.desktopCta}`}
+      >
         SIGN UP NOW
       </a>
 
@@ -75,7 +80,13 @@ export default function Navbar() {
             ))}
           </ul>
         </nav>
-        <a href="#" className={styles.mobileCtaButton}>
+        <a
+          href="https://creatordesks.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.mobileCtaButton}
+          onClick={() => setMenuOpen(false)}
+        >
           SIGN UP NOW
         </a>
       </div>
